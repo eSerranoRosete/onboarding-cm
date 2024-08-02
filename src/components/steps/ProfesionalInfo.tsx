@@ -1,7 +1,7 @@
 "use client";
 
 import { Loader2Icon, UploadCloudIcon } from "lucide-react";
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, Suspense, useState } from "react";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
